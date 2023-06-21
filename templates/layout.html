@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>
+    RICE leaf Disease detection
+</title>
+<meta name="viewport" content="width-device-width, initial-scale=1">
+<link rel="stylesheet" href="{{url_for('static',filename='css/w3css.css')}}">
+<body>
+    <!--Sidebar-->    
+<div class ="w3-sidebar w3-light-grey w3-bar-block" style ="width:25%">
+    <h3 class="w3-bar-item">Menu</h3>
+    <a href="home"class="w3-bar-item w3-button">Home</a>
+    <a href="Image"class="w3-bar-item w3-button">Detect Rice Leaf Disease</a>
+    <a href="info"class="w3-bar-item w3-button">Know about Rice Leaf Disease</a>
+</div>
+<!--Page Content-->
+<div style ="margin-left:25%">
+    <div class="w3-container w3-teal">
+        <h1>Rice Leaf Disease Detection using ML</h1>
+    </div>
+</div>    
+{% block content %}
+{% endblock %}
+
+<!--Footer-->
+<div class="w3-container w3-teal" style ="margin-left:25%">
+    <div class ="w3-container w3-cell w3-mobile" style="width:85%">
+        <h5>Developed By</h5>
+        <div class ="w3-container w3-cell">
+            <p>student 1</p>
+            <p>student 2</p>
+        </div>
+    </div>
+    <div class ="w3-container w3-cell w3-mobile">
+        <h5>Guided By</h5>
+        <p>Guide Name</p>
+    </div>
+</div>
+</body>
+
+</html>

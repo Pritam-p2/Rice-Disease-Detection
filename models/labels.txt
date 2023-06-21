@@ -1,0 +1,3 @@
+0 Bacterial Leaf Blight
+1 Brown spot
+2 Leaf smut
